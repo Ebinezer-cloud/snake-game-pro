@@ -3,7 +3,7 @@ title Snake Game Pro
 
 cd /d "%~dp0"
 
-py -3.11 -m pip install -r requirements.txt
+py -3.10 -m pip install -r requirements.txt
 
 if errorlevel 1 (
     echo.
@@ -12,6 +12,6 @@ if errorlevel 1 (
     exit /b
 )
 
-py -3.11 main.py
+py -3.10 main.py
 
 pause
